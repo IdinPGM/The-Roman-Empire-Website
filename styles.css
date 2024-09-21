@@ -1,0 +1,1056 @@
+@font-face {
+  font-family: "Inknut Antiqua";
+  src: url(./Inknut_Antiqua/InknutAntiqua-Medium.ttf);
+}
+
+body {
+  background-color: #FFFBEA;
+  font-family: 'Inknut Antiqua';
+  margin: 0;
+  padding: 0;
+}
+
+/* .content-wrap {
+  flex: 1; 
+} */
+
+header {
+  width: 100%;
+  background-color: #FFFBEA;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  margin: 3px 40px;
+}
+
+.nav-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2em;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  padding: 0px 15px;
+}
+
+.navbar a:hover {
+  background-color: #333;
+  color: #FFFBEA;
+  border-radius: 10px;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger-menu .line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(160, 156, 139)
+}
+
+.navbar-divider {
+  border: none;
+  height: 4px;
+  background-color: #333;
+  margin: 0 50px;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.intro {
+  display: block;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.content h2,
+.challenges h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.Roman_Empire {
+  /* Roman Empire */
+  margin: 0;
+
+  position: absolute;
+  width: 785px;
+  height: 143px;
+  left: 270px;
+  top: 93px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144px;
+
+  color: #2A2A29;
+}
+
+.intro p {
+  /* The Roman Empire stands as one of the most influential civilizations in human history, spanning over 500 years from its humble beginnings as a small city-state to its eventual decline and transformation. Emerging from the ancient city of Rome in Italy, the empire grew to encompass vast territories across Europe, Africa, and Asia, shaping the course of Western civilization and leaving an enduring legacy that resonates to this day. */
+
+  position: absolute;
+  width: 507px;
+  height: 397px;
+  left: 270px;
+  top: 203px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 44px;
+  text-align: right;
+
+  color: #2A2A29;
+}
+
+.intro img {
+  /* image 1 */
+
+  position: absolute;
+  width: 819px;
+  height: 423px;
+  left: 820px;
+  top: 150px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line1 {
+  /* Line 1 */
+
+  position: absolute;
+  width: 514px;
+  height: 0px;
+  left: 270px;
+  top: 620px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.content img {
+  /* image 2 */
+
+  position: absolute;
+  width: 500px;
+  height: 303px;
+  left: 275px;
+  top: 641px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line3 {
+  /* Line 3 */
+
+  position: absolute;
+  width: 514px;
+  height: 0px;
+  left: 270px;
+  top: 971px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.Introduction {
+  /* Introduction */
+
+  position: absolute;
+  width: 785px;
+  height: 143px;
+  left: 840px;
+  top: 510px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144px;
+
+  color: #2A2A29;
+}
+
+.line2 {
+  /* Line 2 */
+
+  position: absolute;
+  width: 792px;
+  height: 0px;
+  left: 840px;
+  top: 680px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.content p {
+  /* Known for its advanced infrastructure and cultural influence, the Roman Empire thrived during the Pax Romana, a period of relative peace and prosperity. Its achievements in law, architecture, and governance set foundations for modern Western society. Iconic structures like the Colosseum and aqueducts exemplify Roman engineering and architectural innovation. The empire's legacy endures through its lasting impact on Western civilization. */
+
+  position: absolute;
+  width: 784px;
+  height: 246px;
+  left: 840px;
+  top: 679px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 44px;
+
+  color: #2A2A29;
+}
+
+.challenges img {
+  /* image 3 */
+
+  position: absolute;
+  width: 1371px;
+  height: 568px;
+  left: 270px;
+  top: 993px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line4 {
+  /* Line 4 */
+
+  position: absolute;
+  width: 986px;
+  height: 0px;
+  left: 270px;
+  top: 1585px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.However {
+  /* However, */
+
+  position: absolute;
+  width: 312px;
+  height: 143px;
+  left: 1330px;
+  top: 1500px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 144px;
+
+  color: #2A2A29;
+}
+
+.challenges p {
+  /* the empire faced significant challenges, including economic difficulties, external invasions, and internal strife. These issues eventually led to its decline by the 5th century CE. Despite its fall, the Roman Empire's legacy endures through its lasting impact on law, governance, language, and culture. Its story provides valuable lessons on the complexities of maintaining power and cultural assimilation, offering insights into the rise and fall of great civilizations. */
+
+  position: absolute;
+  width: 952px;
+  height: 280px;
+  left: 290px;
+  top: 1580px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 46px;
+  color: #2A2A29;
+  text-align: right;
+}
+
+.Arrow1 {
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150.77px;
+  height: 105px;
+  left: 1400px;
+  top: 1680px;
+
+  color: #2A2A29;
+  text-decoration: none;
+  border: 3px solid rgba(42, 42, 41, 0.8);
+  border-radius: 20px;
+
+  /* Centering the text using Flexbox */
+  display: flex;
+  justify-content: center;
+  /* Horizontally center */
+  align-items: center;
+  /* Vertically center */
+  text-align: center;
+  /* Ensures the text is centrally aligned */
+}
+
+.Arrow1:hover {
+  background-color: #333;
+  color: #FFFBEA;
+}
+
+.footer {
+  /* IDIN SRISANGA */
+  position: absolute;
+  width: 250px;
+  height: 34px;
+  left: 1405px;
+  top: 1780px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Page2 */
+
+.Brief {
+  /* Brief Overview of */
+
+  position: absolute;
+  width: 631px;
+  height: 143px;
+  left: 120px;
+  top: 80px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 103px;
+
+  color: #2A2A29;
+}
+
+.Timeline {
+  position: absolute;
+  width: 957px;
+  height: 143px;
+  left: 120px;
+  top: 135px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 144px;
+
+  color: #2A2A29;
+}
+
+.long_line {
+  /* Rectangle 4 */
+
+  position: absolute;
+  width: 6px;
+  height: 2500px;
+  left: 960px;
+  top: 374px;
+
+  background: #2A2A29;
+}
+
+.circle {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 945.25px;
+
+  background: #2A2A29;
+  border-radius: 100px;
+}
+
+.sec1 p {
+  /* Founding and Kingdom Period (753 BC - 509 BC) 753 BC: According to legend, Rome is founded by Romulus and Remus. 753-509 BC: Rome is ruled by a series of kings, beginning with Romulus. */
+
+  position: absolute;
+  width: 670px;
+  height: 241px;
+  left: 1020px;
+  top: 445px;
+  color: #2A2A29;
+}
+
+.sec1 img {
+  position: absolute;
+  width: 657px;
+  height: 395px;
+  left: 250px;
+  top: 445px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.sec2 p {
+  /* Roman Republic (509 BC - 27 BC) 509 BC: The last Roman king is overthrown, and the Roman Republic is established. 264-146 BC: The Punic Wars are fought against Carthage, leading to Roman dominance in the Mediterranean. 133-31 BC: Period of internal strife and civil wars, including the rise and assassination of Julius Caesar in 44 BCE. */
+
+  position: absolute;
+  width: 670px;
+  height: 333px;
+  left: 230px;
+  top: 945px;
+  text-align: right;
+  color: #2A2A29;
+}
+
+.sec2 img {
+  /* image 6 */
+
+  position: absolute;
+  width: 657px;
+  height: 395px;
+  left: 1020px;
+  top: 945px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+}
+
+.sec3 p {
+  /* Roman Empire (27 BC - 476 AD) 27 BC: Augustus (formerly Octavian) becomes the first Roman emperor, marking the beginning of the Roman Empire. 27 BC - 180 AD: The Pax Romana, relative peace and growth. 64 AD: The Great Fire of Rome occurs during the reign of Emperor Nero. 117 AD: The empire reaches its greatest territorial extent under Emperor Trajan. 235-284 AD: The Crisis of the Third Century, a period of military, political, and economic turmoil. */
+
+  position: absolute;
+  width: 700px;
+  height: 471px;
+  left: 1020px;
+  top: 1350px;
+
+  color: #2A2A29;
+}
+
+.sec3 img {
+  /* image 7 */
+
+  position: absolute;
+  width: 657px;
+  height: 395px;
+  left: 250px;
+  top: 1445px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+}
+
+.sec4 p {
+
+  position: absolute;
+  width: 670px;
+  height: 333px;
+  left: 220px;
+  top: 1855px;
+  text-align: right;
+  color: #2A2A29;
+}
+
+.sec4 img {
+  /* image 8 */
+
+  position: absolute;
+  width: 657px;
+  height: 395px;
+  left: 1020px;
+  top: 1945px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+}
+
+.sec5 p {
+  position: absolute;
+  width: 700px;
+  height: 471px;
+  left: 1020px;
+  top: 2410px;
+
+  color: #2A2A29;
+}
+
+.sec5 img {
+  /* image 7 */
+
+  position: absolute;
+  width: 657px;
+  height: 395px;
+  left: 250px;
+  top: 2445px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+}
+
+.n2 {
+  position: absolute;
+  width: 150.77px;
+  height: 105px;
+  left: 1040px;
+  top: 2920px;
+}
+
+.b2 {
+  position: absolute;
+  width: 150.77px;
+  height: 105px;
+  left: 730px;
+  top: 2920px;
+}
+
+/* page3 */
+
+.Reflection {
+  position: absolute;
+  width: 1361px;
+  height: 103px;
+  left: 280px;
+  top: 100px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 103px;
+  text-align: center;
+
+  color: #2A2A29;
+}
+
+.Empire {
+  /* The Roman Empire */
+
+  position: absolute;
+  width: 1361px;
+  height: 144px;
+  left: 280px;
+  top: 150px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 144px;
+  text-align: center;
+
+  color: #2A2A29;
+}
+
+.line5 {
+  position: absolute;
+  width: 1050px;
+  height: 0px;
+  left: 430px;
+  top: 350px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transform: rotate(0deg);
+  opacity: 50%;
+}
+
+.Topic3 p {
+  /* The Roman Empire's influence is deeply embedded in modern Western civilization. */
+
+  position: absolute;
+  width: 1361px;
+  height: 52px;
+  left: 280px;
+  top: 360px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #2A2A29;
+}
+
+.line6 {
+  position: absolute;
+  width: 1050px;
+  height: 0px;
+  left: 430px;
+  top: 460px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transform: rotate(0deg);
+  opacity: 50%;
+}
+
+.sec01 h2 {
+  /* Law and Governance */
+
+  position: absolute;
+  width: 744px;
+  height: 87px;
+  left: 310px;
+  top: 470px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 103px;
+
+  color: #2A2A29;
+}
+
+.sec01 p {
+  /* T1 */
+
+  position: absolute;
+  width: 534px;
+  height: 285px;
+  left: 310px;
+  top: 570px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+
+  color: #2A2A29;
+}
+
+.sec01 img {
+  /* image 10 */
+  position: absolute;
+  width: 670px;
+  height: 379px;
+  left: 980px;
+  top: 515px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sec02 h2 {
+  /* Architecture and Engineering */
+
+  position: absolute;
+  width: 748px;
+  height: 87px;
+  left: 990px;
+  top: 930px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 103px;
+
+  color: #2A2A29;
+}
+
+.sec02 p {
+  /* T2 */
+
+  position: absolute;
+  width: 534px;
+  height: 285px;
+  left: 990px;
+  top: 1030px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+
+  color: #2A2A29;
+}
+
+.sec02 img {
+  /* image 11 */
+
+  position: absolute;
+  width: 614px;
+  height: 342px;
+  left: 310px;
+  top: 990px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line7 {
+  position: absolute;
+  width: 1430px;
+  height: 0px;
+  left: 245px;
+  top: 1400px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.sec03 {
+  /* image 12 */
+  position: absolute;
+  width: 1380px;
+  height: 581px;
+  left: 265px;
+  top: 1450px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line8 {
+  position: absolute;
+  width: 1430px;
+  height: 0px;
+  left: 245px;
+  top: 2080px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.sec04 h2 {
+  /* Language and Literature */
+
+  position: absolute;
+  width: 568px;
+  height: 87px;
+  left: 685px;
+  top: 2040px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 103px;
+
+  color: #2A2A29;
+}
+
+.sec04 p {
+  position: absolute;
+  width: 1170px;
+  height: 171px;
+  left: 380px;
+  top: 2140px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+  text-align: center;
+
+  color: #2A2A29;
+}
+
+.line9 {
+  position: absolute;
+  width: 1430px;
+  height: 0px;
+  left: 245px;
+  top: 2345px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.sec05 h2 {
+  /* Architecture and Engineering */
+
+  position: absolute;
+  width: 489px;
+  height: 87px;
+  left: 1110px;
+  top: 2370px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 64px;
+  /* or 160% */
+
+  color: #2A2A29;
+}
+
+.sec05 p {
+  position: absolute;
+  width: 534px;
+  height: 228px;
+  left: 1110px;
+  top: 2510px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+
+  color: #2A2A29;
+}
+
+.sec05 img {
+  /* image 13 */
+
+  position: absolute;
+  width: 782px;
+  height: 444px;
+  left: 280px;
+  top: 2412px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sec06 h2 {
+  /* Urban Planning and Infrastructure */
+
+  position: absolute;
+  width: 489px;
+  height: 87px;
+  left: 280px;
+  top: 2880px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 64px;
+  /* or 160% */
+
+  color: #2A2A29;
+}
+
+.sec06 p {
+  position: absolute;
+  width: 534px;
+  height: 228px;
+  left: 280px;
+  top: 3015px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+
+  color: #2A2A29;
+}
+
+.sec06 img {
+  /* image 14 */
+
+  position: absolute;
+  width: 750px;
+  height: 394px;
+  left: 860px;
+  top: 2890px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sec07 h2 {
+  /* Architecture and Engineering */
+
+  position: absolute;
+  width: 489px;
+  height: 64px;
+  left: 280px;
+  top: 3375px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 64px;
+  /* identical to box height, or 160% */
+
+  color: #2A2A29;
+}
+
+.sec07 p {
+  position: absolute;
+  width: 534px;
+  height: 228px;
+  left: 280px;
+  top: 3460px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+
+  color: #2A2A29;
+}
+
+.sec07 img {
+  /* image 15 */
+
+  position: absolute;
+  width: 750px;
+  height: 394px;
+  left: 860px;
+  top: 3362px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line10 {
+  position: absolute;
+  width: 1430px;
+  height: 0px;
+  left: 245px;
+  top: 3790px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.sec08 img {
+  /* image 16 */
+
+  position: absolute;
+  width: 1380px;
+  height: 551px;
+  left: 265px;
+  top: 3850px;
+
+  background: url(image.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line11 {
+  position: absolute;
+  width: 1430px;
+  height: 0px;
+  left: 245px;
+  top: 4460px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+}
+
+.sec09 h2 {
+  /* Language and Literature */
+
+  position: absolute;
+  width: 568px;
+  height: 103px;
+  left: 685px;
+  top: 4450px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 103px;
+  text-align: center;
+
+  color: #2A2A29;
+}
+
+.sec09 p {
+  /* T3 */
+
+  position: absolute;
+  width: 1191px;
+  height: 171px;
+  left: 380px;
+  top: 4550px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+  text-align: center;
+
+  color: #2A2A29;
+}
+
+.b3 {
+  position: absolute;
+  width: 150.77px;
+  height: 105px;
+  left: 885px;
+  top: 4810px;
+}
+
+.footer3 p {
+  position: absolute;
+  width: 150.77px;
+  height: 105px;
+  left: 890px;
+  top: 4910px;
+
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Webkit browsers */
+::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+  background-color: #FFFBEA;
+  /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  /* Color of the scrollbar handle */
+  border-radius: 10px;
+  /* Rounded corners */
+  border: 3px solid #FFFBEA;
+  /* Creates some space around the scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Darker color on hover */
+}
+
+/* Optional: Style scrollbar corner (for the bottom-right corner where horizontal and vertical scrollbars meet) */
+::-webkit-scrollbar-corner {
+  background-color: #FFFBEA;
+}
